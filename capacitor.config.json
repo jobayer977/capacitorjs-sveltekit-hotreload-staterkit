@@ -1,0 +1,16 @@
+{
+	"appId": "com.moment.app",
+	"appName": "moment",
+	"bundledWebRuntime": false,
+	"webDir": "build",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	},
+	"server": {
+		"cleartext": true,
+		// replace with your local ip address
+		"url": "http://192.168.1.7:5173"
+	}
+}
